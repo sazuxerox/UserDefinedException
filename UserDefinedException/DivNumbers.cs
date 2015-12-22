@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UserDefinedException
 {
-    class DivNumbers
+    class DivNumbers : IDivide
     {
         int result;
         public DivNumbers()

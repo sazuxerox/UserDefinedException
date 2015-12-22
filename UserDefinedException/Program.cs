@@ -11,7 +11,7 @@ namespace UserDefinedException
         static void Main(string[] args)
         {
             var d = new DivNumbers();
-            d.Division(24,0);
+            d.Division(24, 4);
 
             var t = new Temparature();
             try
