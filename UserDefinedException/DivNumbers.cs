@@ -13,6 +13,12 @@ namespace UserDefinedException
         {
             result = 0;
         }
+        
+
+        public void Display()
+        {
+            Console.WriteLine("Method implemented from interface");
+        }
 
         public void Division(int num1, int num2)
         {

@@ -12,6 +12,7 @@ namespace UserDefinedException
         {
             var d = new DivNumbers();
             d.Division(24, 4);
+            d.Display();
 
             var t = new Temparature();
             try

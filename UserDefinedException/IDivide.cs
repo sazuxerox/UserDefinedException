@@ -10,5 +10,6 @@ namespace UserDefinedException
     public interface IDivide
     {
         void Division(int x, int y);
+        void Display();
     }
 }
